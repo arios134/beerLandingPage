@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>High Peak Brewing Co.</title>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <link rel="stylesheet" type="text/css" href="beerLandingPage.css">
+</head>
+
+<main>
+<!-- header with company logo and navigation menu -->
+<div id="top">
+  <header id="header">
+    <div class="logo">
+      <img
+        id="header-img"
+        src=""
+        alt="company logo"
+      />
+    </div>
+    <nav id="nav-bar"> <!--nav list-->
+      <ul>
+        <li><a href="#meetBrewer" class="nav-link">The Brewers</a></li>
+        <li><a href="#ourBeer" class="nav-link"> In Kegs</a></li>
+       <li><a href="#upcomingBeer" class="nav-link">Upcoming Releases</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+
+<!--company name, front and center-->
+<div class="section-position">
+  <div class="grid">
+    <div class="flex-container" >
+      <section class="section-position">
+        <h1>High Peak Brewing Company</h1>
+      </section>
+    </div>
+  </div>
+</div>
+    
+<div>
+  <!--Meet the Brewer section in flexbox-->
+  <div id="meetBrewer" class="grid">
+    <div class="flex-container flex-container-text">
+      <section class="section-position" style="order: 1;">
+        <h2>Alex Rios, Brewer</h2>
+        <img class="position-img" src="IMG_3404.JPG" alt="brewer alex">
+        <p class="position-text"> Fascinated with the science and art behind brewing, Alex pursued homebrewing as a hobby. After much reading and YouTube videos later,
+          Alex finally took his first steps with a gallon starter kit to make a Pale Ale.</p><br />
+        <p class="position-text">From there, Alex formulated more recipes and scaled up to 5 gallons. Later, Alex had the opportunity to work with a long-standing
+          50-bbl production brewery where he learned how to perform tasks in the following departments: Brew House, Cellar and Packaging.
+          Compentencies include prepping raw material, use BeraBrew software to manage the brewing process; analyze yeast health,
+          set up transfer lines, CIP &amp; Post-Infect vessels and lines; clarifying beer, checking DO &amp; carbonation specs before kegging beer.</p>
+      </section>
+    </div>  
+  </div>
+  <!--assistant brewer section-->
+  <div>
+    <div class="flex-container flex-container-text">
+      <section class="section-position" style="order: 2;">
+        <h2>Guiseppi, Assist. Brewer</h2>
+        <div>
+          <img class="position-img" src="giuseppe.JPG" alt="brewer French bulldog">
+          <p class="position-text">Assistant to the brewer, this frenchie takes his job seriously!</p>
+      </div>
+      </section>
+    </div>
+  </div>
+
+  <div>
+    <!--embedded video -->
+    <section class="section-position">  
+      <h2>Quick Tip on the Perfect Pour</h2>
+      <iframe id="video" src="https://www.youtube.com/embed/OypTfPDEdZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
+    </section>
+  </div>
+  
+  <!--upcoming beers to brew-->
+  <div>
+    <div class="flex-container flex-container-text">
+      <section class="section-position">
+        <h2 id="upcomingBeer">Upcoming Releases</h2>
+          <ol>
+            <li><em> "Just Another NEIPA"</em> | 6% | NEIPA</li>
+            <li><em> "CZECH-mate"</em> | 4.5% | Pilz</li>
+            <li><em> "That Sweet Szechuan Sauce"</em> | 7% | Rauchbier</li>
+          </ol>
+      </section>
+    </div>
+  </div>
+
+  <section class="section-position">
+    <h3 id="#upcomingBeer">When's the Next Beer Release?</h3>
+      <form id="form"
+        target="_blank"
+        action="https://www.freecodecamp.com/email-submit">
+        <input
+          name="email"
+          id="email"
+          type="email"
+          placeholder="Enter your email address"
+          required
+        />
+        <input
+          id="submit"
+          class="btn"
+          type="submit"
+          value="Beer Me!"
+          />
+    </form>
+  </section>
+  
+
+  <!--footer section -->
+  <footer id="ourBeer">
+    <h4>Brewing Resources</h4>
+      <ul>
+        <li><a target="_blank" href="https://www.homebrewersassociation.org/">American Homebrew Assoc.</a></li>
+        <li><a target="_blank" href="https://www.brewersassociation.org/">Brewers Association</a></li>
+      </ul>
+    <span>Project Completed by Alex Rios</span>
+    <span><a href="#top">Back to top</a></span>
+  </footer>
+</div>
+</main>
+</html>
